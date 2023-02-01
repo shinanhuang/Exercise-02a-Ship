@@ -23,6 +23,6 @@ func _physics_process(_delta):
 		rotation_degrees = rotation_degrees + rotation_speed
 
 	position.x = wrapf(position.x,0,1024)
-	position.y = wrapf(position.x,0,600)
+	position.y = wrapf(position.y,0,600)
 	
 	
